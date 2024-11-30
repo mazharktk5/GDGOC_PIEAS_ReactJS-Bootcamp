@@ -3,3 +3,7 @@
   flex-wrap: wrap;
   flex-direction: column;
 }
+
+#footer{
+  text-align: center;
+}
