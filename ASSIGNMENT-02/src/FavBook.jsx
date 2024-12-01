@@ -5,7 +5,6 @@ const FavBooks = () => {
     const { favBooks } = useContext(BookContext);
 
     return (
-        <>
         <div>
             <h1>Favorite Books</h1>
             <ul>
@@ -14,11 +13,7 @@ const FavBooks = () => {
                 ))}
             </ul>
         </div>
-        <h1 id="footer">ALL Rights Reserved || Mazhar Ahmad </h1>
-        </>
-        
     );
-    
 };
 
 export default FavBooks;
